@@ -75,7 +75,7 @@ body {
 
 .title {
   font-size: 2em;
-  margin: 30px 0 0 0;
+  margin-top: 50px;
 }
 
 .blurb {
@@ -89,21 +89,22 @@ body {
 }
 
 .link-container {
-  width: 90px;
   display: inline-block;
+  width: 90px;
   margin: 10px
 }
 
 @media screen and (max-width: 600px) {
   .about {
-    /* display: none; */
     height: 300px;
     position: relative;
     width: 100%;
   }
 
   .skill {
-    margin: 3px;
+    margin: 2px;
+    font-size: 10px;
+    width: 65px;
   }
 
   body {
@@ -117,5 +118,14 @@ body {
 
   .link-container {
     margin: 2px;
+    width: 70px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+
+  img {
+    width: 40px;
   }
 }
