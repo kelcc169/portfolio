@@ -77,3 +77,19 @@ body {
   font-size: 2em;
   margin: 30px 0 0 0;
 }
+
+.blurb {
+  padding: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.link-container {
+  width: 90px;
+  display: inline-block;
+  margin: 10px
+}
