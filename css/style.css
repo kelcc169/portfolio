@@ -93,3 +93,29 @@ body {
   display: inline-block;
   margin: 10px
 }
+
+@media screen and (max-width: 600px) {
+  .about {
+    /* display: none; */
+    height: 300px;
+    position: relative;
+    width: 100%;
+  }
+
+  .skill {
+    margin: 3px;
+  }
+
+  body {
+    grid-template-columns: 100%;
+    grid-template-rows: 300px 0px auto
+  }
+  
+  .picture {
+    width: 450px;
+  }
+
+  .link-container {
+    margin: 2px;
+  }
+}
