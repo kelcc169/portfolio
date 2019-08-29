@@ -128,4 +128,8 @@ body {
   img {
     width: 40px;
   }
+
+  .contact {
+    text-align: center;
+  }
 }
